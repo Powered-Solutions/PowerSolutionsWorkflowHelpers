@@ -7,7 +7,7 @@ using Microsoft.Xrm.Sdk.Workflow;
 
 namespace PoweredSolutions.Workflow.Utilities
 {
-    public class FetchXmlCount : CodeActivity
+    public class FetchXmlResultCount : CodeActivity
     {
         [RequiredArgument]
         [Input("FetchXml")]
