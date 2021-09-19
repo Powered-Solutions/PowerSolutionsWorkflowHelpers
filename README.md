@@ -1,4 +1,4 @@
-# PoweredSolutionWorkflowHelpers
+# PoweredSolutions.Workflow.Utilities
 This project contains common useful Custom Workflow Activiies.
 
 # List of Custom Workflow Activities
