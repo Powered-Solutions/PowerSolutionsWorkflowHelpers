@@ -3,7 +3,7 @@ This project contains common useful Custom Workflow Activiies.
 
 # List of Custom Workflow Activities
 
-## 1. FetchXMLCount
+## 1. FetchXmlResultCount
 
 This activty can be used to get the count of the rows retured by FetchXML. It accepts FetchXML string and five(5) parameters to make FetchXML dynamics.
 
