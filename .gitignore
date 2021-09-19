@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WorkFlowHelpers/PoweredSolutions.Workflow.Utilities/bin/Debug
+/WorkFlowHelpers/PoweredSolutions.Workflow.Utilities/obj/Debug/PoweredSolutions.Workflow.Utilities.csproj.CopyComplete
+/WorkFlowHelpers/PoweredSolutions.Workflow.Utilities/obj/Debug/PoweredSolutions.Workflow.Utilities.csproj.CoreCompileInputs.cache
+/WorkFlowHelpers/PoweredSolutions.Workflow.Utilities/obj/Debug/PoweredSolutions.Workflow.Utilities.csproj.FileListAbsolute.txt
+/WorkFlowHelpers/PoweredSolutions.Workflow.Utilities/obj/Debug/PoweredSolutions.Workflow.Utilities.dll
+/WorkFlowHelpers/PoweredSolutions.Workflow.Utilities/obj/Debug/PoweredSolutions.Workflow.Utilities.pdb
