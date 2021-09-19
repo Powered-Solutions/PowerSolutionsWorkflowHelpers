@@ -56,6 +56,11 @@ namespace PoweredSolutions.Workflow.Utilities
             Count.Set(executionContext, fetchXmlQueryResults.Entities.Count);
         }
 
+        /// <summary>
+        /// Formats input parameters
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         private static string FormatParameter(string input)
         {
             var result = input;
@@ -74,6 +79,11 @@ namespace PoweredSolutions.Workflow.Utilities
             return result ?? string.Empty;
         }
 
+        /// <summary>
+        /// Get Guid for Record URL parameter type
+        /// </summary>
+        /// <param name="recordUrl"></param>
+        /// <returns></returns>
         public static Guid? GetRecordId(string recordUrl)
         {
             var queryString = new UriBuilder(recordUrl).Query;
@@ -87,6 +97,12 @@ namespace PoweredSolutions.Workflow.Utilities
             return null;
         }
 
+        /// <summary>
+        /// Gets the query string parameter for record url
+        /// </summary>
+        /// <param name="queryString"></param>
+        /// <param name="parameterName"></param>
+        /// <returns></returns>
         private static string GetQueryStringParameter(string queryString, string parameterName)
         {
             queryString = queryString.TrimStart(new[] { '?' });
